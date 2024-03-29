@@ -19,7 +19,7 @@ let flag = false; // boolean
 for (let i = 0; i < userAccess.length; i++) {
     //console.log(i, userAccess[i]); --> Mi stampa tutti gli elementi
 
-    if (userAccess === mailUser) {
+    if (userAccess[i] === mailUser) {
         flag = true;
         console.log("Accesso consentito");
         // L'istruzione break serve a uscire immediatamente dal ciclo dopo aver trovato un match, senza continuare a iterare sugli elementi successivi.
